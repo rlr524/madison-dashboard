@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="today">
     This is the "Today" component
   </div>
 </template>
@@ -10,4 +10,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.today {
+  border: black 1px solid;
+}
+</style>
