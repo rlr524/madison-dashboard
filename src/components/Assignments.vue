@@ -1,5 +1,5 @@
 <template>
-  <div class="assignments">
+  <div class="dash-box assignments">
     This is the "Assignments" component
   </div>
 </template>
@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.assignments {
-  border: black 1px solid;
-}
-</style>
+<style lang="scss" scoped></style>

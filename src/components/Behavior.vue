@@ -1,5 +1,5 @@
 <template>
-  <div class="behavior">
+  <div class="dash-box behavior">
     This is the "Behavior" component
   </div>
 </template>
@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.behavior {
-  border: black 1px solid;
-}
-</style>
+<style lang="scss" scoped></style>

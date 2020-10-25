@@ -1,5 +1,5 @@
 <template>
-  <div class="chores">
+  <div class="dash-box chores">
     This is the "Chores" component
   </div>
 </template>
@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.chores {
-  border: black 1px solid;
-}
-</style>
+<style lang="scss" scoped></style>

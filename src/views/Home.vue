@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Main msg="This is the Madison Dashboard" />
-    <div class="container">
+    <b-container>
       <div class="row">
         <div class="col-md section">
           <Today />
@@ -26,7 +26,7 @@
           <Allowance />
         </div>
       </div>
-    </div>
+    </b-container>
   </div>
 </template>
 

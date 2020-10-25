@@ -1,5 +1,5 @@
 <template>
-  <div class="grades">
+  <div class="dash-box grades">
     This is the "Grades" component
   </div>
 </template>
@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.grades {
-  border: black 1px solid;
-}
-</style>
+<style lang="scss" scoped></style>

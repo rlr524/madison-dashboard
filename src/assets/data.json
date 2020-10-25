@@ -1,0 +1,27 @@
+{
+  "today": {
+    "title": "Today items",
+    "TodayList": [
+      {
+        "id": "00001",
+        "description": "Go to school"
+      },
+      {
+        "id": "00002",
+        "description": "Do homework"
+      },
+      {
+        "id": "00003",
+        "description": "Do chores"
+      },
+      {
+        "id": "00004",
+        "description": "Practice piano"
+      },
+      {
+        "id": "00005",
+        "description": "Go to bed"
+      }
+    ]
+  }
+}

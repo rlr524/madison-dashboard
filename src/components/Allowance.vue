@@ -1,5 +1,5 @@
 <template>
-  <div class="allowance">
+  <div class="dash-box allowance">
     This is the "Allowance" component
   </div>
 </template>
@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.allowance {
-  border: black 1px solid;
-}
-</style>
+<style lang="scss" scoped></style>
