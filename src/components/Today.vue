@@ -2,21 +2,43 @@
   <div class="dash-box">
     <div class="today flex">
       <h1 class="today-title">Today</h1>
-      <i class="today-icon material-icons">add_circle</i>
+      <i
+        @click="addTodayItem"
+        role="button"
+        tabindex="0"
+        aria-label="Click to add a new today item"
+        class="today-icon material-icons"
+        >add_circle</i
+      >
     </div>
     <div>
-      <ol>
-        <li>Today item # 1</li>
-        <li>Today item # 2</li>
-        <li>Today item # 3</li>
-      </ol>
+      <ul>
+        <li v-for="(item, index, uid) in items" :key="uid">
+          {{ mainMessage }} {{ index + 1 }} - {{ item.description }}
+        </li>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Today"
+  name: "Today",
+  data: function() {
+    return {
+      mainMessage: "Today item # ",
+      items: [
+        { uid: 10001, description: "Go to school" },
+        { uid: 10002, description: "Do homework" },
+        { uid: 10003, description: "Do chores" }
+      ]
+    };
+  },
+  methods: {
+    addTodayItem: function() {
+      this.items.push({ uid: 10004, description: "This is a new item" });
+    }
+  }
 };
 </script>
 
@@ -28,12 +50,13 @@ export default {
   transform: translateX(-50%);
 }
 .today-icon {
+  cursor: pointer;
   flex: 0 1 auto;
   font-size: 2.5rem;
   margin-left: auto;
 }
 
-ol {
+ul {
   margin-top: 3%;
 }
 </style>

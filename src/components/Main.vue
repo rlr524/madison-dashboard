@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <h1>{{ msg }}</h1>
     <p class="font-bold">This is a bold sentence.</p>
   </div>
@@ -14,4 +14,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#main {
+  text-align: center;
+}
+</style>
